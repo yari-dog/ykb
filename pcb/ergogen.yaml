@@ -1,0 +1,170 @@
+units:
+  # proxy spacing vars
+  kx: cx
+  ky: cy
+  # padding vars
+  p: 4
+  px: kx
+  py: ky
+  $default_width: cx
+  $default_height: cy
+points:
+  key:
+    padding: 1ky
+    spread: 1kx
+  zones:
+    matrix:
+      columns:
+        outer:
+        pinky:
+          key.splay: -0.25ky
+          key.stagger: 0.25ky
+          key.origin: [0, -0.5kx]
+        ring:
+          key.splay: -0.75ky
+          key.origin: [-0.75ky, -0.5kx]
+          key.stagger: 0.75ky
+        middle:
+          key.splay: -0.4ky
+          key.origin: [0, -3p]
+          key.stagger: 0.25ky
+        index:
+          key.splay: -0.25ky
+          key.stagger: -0.5ky
+          key.origin: [0,-1.5p]
+        inner:
+          key.stagger: -0.2ky
+        far_inner:
+          rows:
+            top: 
+              skip: true
+            home:
+              skip: true
+          key.splay: 0
+          key.stagger: 0.5ky
+          key.origin: [0, 0]
+      rows:
+        bottom:
+        home:
+        top:
+    thumbfan:
+      key:
+        splay: -15
+        spread: 1.25kx
+        stagger: -0.175ky
+      anchor:
+        ref: matrix_index_bottom
+        shift: [-0.5kx, -1.25ky]
+      columns:
+        near:
+          key.splay: 0
+        home:
+        far:
+          key.width: 1.5kx
+          # the math here fucking sucks
+          key.shift: [-0.5(kx-ky),0.25ky + 0.75(kx-ky)]
+          key.rotate: 90
+      rows:
+        thumb:
+  rotate: -6
+  mirror:
+    ref: thumbfan_far_thumb
+    distance: 6kx
+outlines:
+  raw:
+    - what: rectangle
+      where: true
+      size: [px, py]
+  keys:
+    - what: rectangle
+      where: true
+      size: [kx-0.5, ky-0.5]
+  board:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: matrix_inner_top
+          shift: [0.5px, 0.5py]
+        - ref: matrix_inner_top
+          shift: [(-0.5kx + p), 0.5py]
+        - ref: matrix_index_top
+          shift: [0.5px, 0.5py]
+        - ref: matrix_index_top
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_middle_top
+          shift: [0.5px, 0.5py]
+        - ref: matrix_middle_top
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_ring_top
+          shift: [0.5px, 0.5py]
+        - ref: matrix_ring_top
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_pinky_top
+          shift: [0.5px, 0.5py]
+        - ref: matrix_pinky_top
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_outer_top
+          shift: [0.5px, 0.5py]
+        - ref: matrix_outer_top
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_outer_bottom
+          shift: [-0.5px, -0.5py]
+        - ref: matrix_outer_bottom
+          shift: [0.5px, -0.5py]
+        - ref: thumbfan_near_thumb
+          shift: [-0.5px, -0.5py]
+        - ref: thumbfan_near_thumb
+          shift: [0.5px, -0.5py]
+        - ref: thumbfan_far_thumb
+          shift: [-(0.5px * 1.5), 0.5py]
+        - ref: thumbfan_far_thumb
+          shift: [-(0.5px * 1.5), -0.5py]
+        - ref: thumbfan_far_thumb
+          shift: [0.5px, -0.5py]
+        - ref: mirror_thumbfan_far_thumb
+          shift: [0.5px, -0.5py]
+        - ref: mirror_thumbfan_far_thumb
+          shift: [-(0.5px * 1.5), -0.5py]
+        - ref: mirror_thumbfan_far_thumb
+          shift: [-(0.5px * 1.5), 0.5py]
+        - ref: mirror_thumbfan_near_thumb
+          shift: [0.5px, -0.5py]  
+        - ref: mirror_thumbfan_near_thumb
+          shift: [-0.5px, -0.5py]
+        - ref: mirror_matrix_outer_bottom
+          shift: [0.5px, -0.5py]
+        - ref: mirror_matrix_outer_bottom
+          shift: [-0.5px, -0.5py]
+        - ref: mirror_matrix_outer_top
+          shift: [-0.5px, 0.5py]
+        - ref: mirror_matrix_outer_top
+          shift: [0.5px, 0.5py]
+        - ref: mirror_matrix_pinky_top
+          shift: [-0.5px, 0.5py]
+        - ref: mirror_matrix_pinky_top
+          shift: [0.5px, 0.5py]
+        - ref: mirror_matrix_ring_top
+          shift: [-0.5px, 0.5py]
+        - ref: mirror_matrix_ring_top
+          shift: [0.5px, 0.5py]
+        - ref: mirror_matrix_middle_top
+          shift: [-0.5px, 0.5py]
+        - ref: mirror_matrix_middle_top
+          shift: [0.5px, 0.5py]
+        - ref: mirror_matrix_index_top
+          shift: [-0.5px, 0.5py]
+        - ref: mirror_matrix_index_top
+          shift: [0.5px, 0.5py]
+        - ref: mirror_matrix_inner_top
+          # do some math here to get it to not go fucky
+          shift: [(-0.5kx + p), 0.5py]
+        - ref: mirror_matrix_inner_top
+          shift: [0.5px, 0.5py]
+      expand: p
+      fillet: 2
+  combo:
+    - name: board
+    - operation: subtract
+      name: keys
+
+
