@@ -10,8 +10,8 @@ units:
   $default_height: cy
 points:
   key:
-    padding: 1ky
-    spread: 1kx
+    padding: ky
+    spread: kx
   zones:
     matrix:
       columns:
@@ -61,9 +61,8 @@ points:
         home:
         far:
           key.width: 1.5kx
-          # the math here fucking sucks
-          key.shift: [-0.5(kx-ky),0.25ky + 0.75(kx-ky)]
-          key.rotate: 90
+          key.shift: [0.25kx,0]
+          key.splay: 75
       rows:
         thumb:
   rotate: -6
@@ -71,10 +70,6 @@ points:
     ref: thumbfan_far_thumb
     distance: 6kx
 outlines:
-  raw:
-    - what: rectangle
-      where: true
-      size: [px, py]
   keys:
     - what: rectangle
       where: true
@@ -166,5 +161,15 @@ outlines:
     - name: board
     - operation: subtract
       name: keys
+
+  plate_keys:
+    - what: rectangle
+      where: true
+      size: [14,14]
+
+  plate:
+    - name: board
+    - operation: subtract
+      name: plate_keys
 
 
