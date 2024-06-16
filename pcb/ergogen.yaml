@@ -6,8 +6,8 @@ units:
   p: 4
   px: kx
   py: ky
-  $default_width: cx
-  $default_height: cy
+  #$default_width: cx
+  #$default_height: cy
 points:
   key:
     padding: ky
@@ -17,19 +17,19 @@ points:
       columns:
         outer:
         pinky:
-          key.splay: -0.25ky
+          key.splay: -5
           key.stagger: 0.25ky
           key.origin: [0, -0.5kx]
         ring:
-          key.splay: -0.75ky
+          key.splay: -15
           key.origin: [-0.75ky, -0.5kx]
           key.stagger: 0.75ky
         middle:
-          key.splay: -0.4ky
+          key.splay: -5
           key.origin: [0, -3p]
           key.stagger: 0.25ky
         index:
-          key.splay: -0.25ky
+          key.splay: -5
           key.stagger: -0.5ky
           key.origin: [0,-1.5p]
         inner:
@@ -171,5 +171,31 @@ outlines:
     - name: board
     - operation: subtract
       name: plate_keys
+
+pcbs:
+  ykb:
+    outlines:
+      main:
+        outline:  board
+    footprints:
+      choc_hotswap:
+        what: choc
+        where: true
+        params:
+          keycaps: true
+          reverse: false
+          hotswap:  true
+          from: "{{column_net}}"  
+          to: "{{colrow}}"
+
+      diode:
+        what: diode
+        where: true
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [0, -5]
+
 
 
