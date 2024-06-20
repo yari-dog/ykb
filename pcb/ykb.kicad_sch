@@ -2591,16 +2591,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 100.33) (xy 143.51 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c95b69a5-dad6-46cc-ae14-979d4c3cef03")
-	)
-	(wire
-		(pts
 			(xy 102.87 69.85) (xy 102.87 88.9)
 		)
 		(stroke
@@ -3039,28 +3029,6 @@
 			)
 		)
 	)
-	(global_label "DBL"
-		(shape input)
-		(at 143.51 106.68 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "33d83bc5-d4d1-4d7c-85b6-ccd0f25a22ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 113.2333 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "col 2"
 		(shape input)
 		(at 139.7 40.64 180)
@@ -3255,28 +3223,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DBL"
-		(shape input)
-		(at 139.7 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "627069fb-bcb5-40d9-9fe1-1fefd1d2304d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.1467 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -10338,7 +10284,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x08_Socket"
+		(property "Value" "Conn_01x07_Socket"
 			(at 152.4 95.25 0)
 			(effects
 				(font
@@ -10346,7 +10292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 			(at 147.32 100.33 0)
 			(effects
 				(font
@@ -10364,7 +10310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated"
+		(property "Description" "Generic connector, single row, 01x07, script generated"
 			(at 147.32 100.33 0)
 			(effects
 				(font
