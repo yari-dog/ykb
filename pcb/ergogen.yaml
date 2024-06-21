@@ -167,8 +167,54 @@ outlines:
       where: true
       size: [14,14]
 
+  plate_border:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: matrix_inner_top
+          shift: [0.5px, 0.5py]
+        - ref: matrix_inner_top
+          shift: [(-0.5kx + p), 0.5py]
+        - ref: matrix_index_top
+          shift: [0.5px, 0.5py]
+        - ref: matrix_index_top
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_middle_top
+          shift: [0.5px, 0.5py]
+        - ref: matrix_middle_top
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_ring_top
+          shift: [0.5px, 0.5py]
+        - ref: matrix_ring_top
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_pinky_top
+          shift: [0.5px, 0.5py]
+        - ref: matrix_pinky_top
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_outer_top
+          shift: [0.5px, 0.5py]
+        - ref: matrix_outer_top
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_outer_bottom
+          shift: [-0.5px, -0.5py]
+        - ref: matrix_outer_bottom
+          shift: [0.5px, -0.5py]
+        - ref: thumbfan_near_thumb
+          shift: [-0.5px, -0.5py]
+        - ref: thumbfan_near_thumb
+          shift: [0.5px, -0.5py]
+        - ref: thumbfan_far_thumb
+          shift: [-(0.5px * 1.5), 0.5py]
+        - ref: thumbfan_far_thumb
+          shift: [-(0.5px * 1.5), -0.5py]
+        - ref: thumbfan_far_thumb
+          shift: [0.5px, -0.5py]
+        - ref: matrix_far_inner_bottom
+          shift: [0.5px, 0.5py]
+      expand: p
+      fillet: 2
   plate:
-    - name: board
+    - name: plate_border
     - operation: subtract
       name: plate_keys
 
