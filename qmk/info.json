@@ -1,0 +1,23 @@
+{
+	"keyboard_name": "yama",
+	"manufacturer": "yari",
+	"url": "https://yari.dog/twt",
+	"maintainer": "yari-dog",
+	"manufacturer": "yari",
+	"usb": {
+		"vendor_id": "0xdead",
+		"product_id": "0xbeef",
+		"device_version": "1.0.0",
+	},
+	"build": {
+		"lto": false,
+		"firmware_format": "uf2",
+	},
+	"matrix_pins": {
+		"cols": [],
+		"rows": []
+	},
+	"diode_direction": "COL2ROW",
+	"community_layouts": [ "standard_4x12" ],
+	
+}
