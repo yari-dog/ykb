@@ -75,8 +75,6 @@
 				(type "Bottom Silk Screen")
 				(color "White")
 			)
-<<<<<<< HEAD
-=======
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
 				(color "White")
@@ -116,7 +114,6 @@
 				(type "Bottom Silk Screen")
 				(color "White")
 			)
->>>>>>> 09b41e8 (some exports so i can print a case lmao)
 			(copper_finish "None")
 			(dielectric_constraints no)
 		)
@@ -124,11 +121,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(grid_origin 236.825 158.6)
 		(pcbplotparams
-<<<<<<< HEAD
-			(layerselection 0x0001000_7fffffff)
-=======
 			(layerselection 0x0001080_7ffffffe)
->>>>>>> 09b41e8 (some exports so i can print a case lmao)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -137,11 +130,7 @@
 			(creategerberjobfile yes)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
-<<<<<<< HEAD
-			(svgprecision 4)
-=======
 			(svgprecision 6)
->>>>>>> 09b41e8 (some exports so i can print a case lmao)
 			(plotframeref no)
 			(viasonmask no)
 			(mode 1)
@@ -152,11 +141,7 @@
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(dxfpolygonmode yes)
-<<<<<<< HEAD
 			(dxfimperialunits no)
-=======
-			(dxfimperialunits yes)
->>>>>>> 09b41e8 (some exports so i can print a case lmao)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
@@ -166,19 +151,11 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-<<<<<<< HEAD
-			(outputformat 3)
-			(mirror no)
-			(drillshape 0)
-			(scaleselection 1)
-			(outputdirectory "")
-=======
 			(outputformat 5)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "./")
->>>>>>> 09b41e8 (some exports so i can print a case lmao)
 		)
 	)
 	(net 0 "")
