@@ -1,0 +1,47 @@
+{
+	"keyboard_name": "yama",
+	"manufacturer": "yari",
+	"url": "https://yari.dog/twt",
+	"maintainer": "yari-dog",
+	"tags": ["ortho", "splayed"],
+	"usb": {
+		"vid": "0xDEAD",
+		"pid": "0xBEEF",
+        "device_version": "0.0.1"
+	},
+	"build": {
+		"lto": true,
+	},
+	"features": {
+		"nkro": true,
+		"extrakey": true,
+		"mousekey": true,
+		"quantum_painter": true,
+	},
+	"matrix_pins": {
+		"cols": ["GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP20", "GP22", "GP26", "GP27", "GP28", "GP29"],
+		"rows": ["GP8", "GP9", "GP21", "GP23"]
+	},
+	"diode_direction": "COL2ROW",
+	"development_board": "helios",
+	"processor": "RP2040",
+	"bootloader": "rp2040",
+	"layouts": {
+		"LAYOUT": {
+			"layout": [
+				{"matrix": [0,0], "x": 0, "y": 0},
+				{"matrix": [0,1], "x": 1, "y": 0},
+				{"matrix": [0,2], "x": 2, "y": 0},
+				{"matrix": [0,3], "x": 3, "y": 0},
+				{"matrix": [0,4], "x": 4, "y": 0},
+				{"matrix": [0,5], "x": 5, "y": 0},
+				{"matrix": [0,6], "x": 6, "y": 0},
+				{"matrix": [0,7], "x": 7, "y": 0},
+				{"matrix": [0,8], "x": 8, "y": 0},
+				{"matrix": [0,9], "x": 9, "y": 0},
+				{"matrix": [0,10], "x": 10, "y": 0},
+				{"matrix": [0,11], "x": 11, "y": 0}
+			]
+		}
+	}
+}

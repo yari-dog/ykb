@@ -75,6 +75,8 @@
 				(type "Bottom Silk Screen")
 				(color "White")
 			)
+<<<<<<< HEAD
+=======
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
 				(color "White")
@@ -114,6 +116,7 @@
 				(type "Bottom Silk Screen")
 				(color "White")
 			)
+>>>>>>> 09b41e8 (some exports so i can print a case lmao)
 			(copper_finish "None")
 			(dielectric_constraints no)
 		)
@@ -121,7 +124,11 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(grid_origin 236.825 158.6)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
+<<<<<<< HEAD
+			(layerselection 0x0001000_7fffffff)
+=======
+			(layerselection 0x0001080_7ffffffe)
+>>>>>>> 09b41e8 (some exports so i can print a case lmao)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -130,7 +137,11 @@
 			(creategerberjobfile yes)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
+<<<<<<< HEAD
 			(svgprecision 4)
+=======
+			(svgprecision 6)
+>>>>>>> 09b41e8 (some exports so i can print a case lmao)
 			(plotframeref no)
 			(viasonmask no)
 			(mode 1)
@@ -141,7 +152,11 @@
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(dxfpolygonmode yes)
+<<<<<<< HEAD
+			(dxfimperialunits no)
+=======
 			(dxfimperialunits yes)
+>>>>>>> 09b41e8 (some exports so i can print a case lmao)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
@@ -151,11 +166,19 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+<<<<<<< HEAD
+			(outputformat 3)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
+=======
+			(outputformat 5)
+			(mirror no)
+			(drillshape 0)
+			(scaleselection 1)
+			(outputdirectory "./")
+>>>>>>> 09b41e8 (some exports so i can print a case lmao)
 		)
 	)
 	(net 0 "")
@@ -397,7 +420,7 @@
 			(uuid "805134d4-c225-4be0-9a13-5c609a728af8")
 		)
 		(fp_line
-			(start 7.000003 -5.599998)
+			(start 7.000002 -5.599998)
 			(end 7.000002 -6.199999)
 			(stroke
 				(width 0.15)
@@ -418,7 +441,7 @@
 		)
 		(fp_arc
 			(start 2.5 -6.199999)
-			(mid 2.146442 -6.346445)
+			(mid 2.146445 -6.346447)
 			(end 1.999997 -6.700003)
 			(stroke
 				(width 0.15)
@@ -429,7 +452,7 @@
 		)
 		(fp_arc
 			(start 0.999997 -3.699998)
-			(mid 2.06066 -3.260662)
+			(mid 2.06066 -3.260663)
 			(end 2.5 -2.200002)
 			(stroke
 				(width 0.15)
@@ -690,7 +713,7 @@
 		)
 		(fp_arc
 			(start 2.5 -6.199999)
-			(mid 2.146442 -6.346445)
+			(mid 2.146445 -6.346447)
 			(end 1.999997 -6.700003)
 			(stroke
 				(width 0.15)
@@ -701,7 +724,7 @@
 		)
 		(fp_arc
 			(start 0.999997 -3.699998)
-			(mid 2.06066 -3.260662)
+			(mid 2.06066 -3.260663)
 			(end 2.5 -2.200002)
 			(stroke
 				(width 0.15)
@@ -1098,7 +1121,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199998)
-			(mid 2.146444 -6.346444)
+			(mid 2.146446 -6.346444)
 			(end 1.999999 -6.699999)
 			(stroke
 				(width 0.15)
@@ -1329,7 +1352,7 @@
 			(uuid "c49d7005-1a73-4de7-9fa0-507020482a05")
 		)
 		(fp_line
-			(start 7.000006 -4.999995)
+			(start 7.000005 -4.999995)
 			(end 9.500003 -4.999999)
 			(stroke
 				(width 0.12)
@@ -1370,7 +1393,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199998)
-			(mid 2.146444 -6.346444)
+			(mid 2.146446 -6.346444)
 			(end 1.999999 -6.699999)
 			(stroke
 				(width 0.15)
@@ -1778,7 +1801,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199998)
-			(mid 2.146444 -6.346444)
+			(mid 2.146446 -6.346444)
 			(end 1.999999 -6.699999)
 			(stroke
 				(width 0.15)
@@ -2009,7 +2032,7 @@
 			(uuid "ef3f4bc4-0463-40d2-833d-79b7ce6229e9")
 		)
 		(fp_line
-			(start 7.000006 -4.999995)
+			(start 7.000005 -4.999995)
 			(end 9.500003 -4.999999)
 			(stroke
 				(width 0.12)
@@ -2050,7 +2073,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199998)
-			(mid 2.146444 -6.346444)
+			(mid 2.146446 -6.346444)
 			(end 1.999999 -6.699999)
 			(stroke
 				(width 0.15)
@@ -2458,7 +2481,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199998)
-			(mid 2.146444 -6.346444)
+			(mid 2.146446 -6.346444)
 			(end 1.999999 -6.699999)
 			(stroke
 				(width 0.15)
@@ -2689,7 +2712,7 @@
 			(uuid "f5ef38a6-55a7-49e2-9da8-25c2c97fa444")
 		)
 		(fp_line
-			(start 7.000006 -4.999995)
+			(start 7.000005 -4.999995)
 			(end 9.500003 -4.999999)
 			(stroke
 				(width 0.12)
@@ -2730,7 +2753,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199998)
-			(mid 2.146444 -6.346444)
+			(mid 2.146446 -6.346444)
 			(end 1.999999 -6.699999)
 			(stroke
 				(width 0.15)
@@ -3138,7 +3161,7 @@
 		)
 		(fp_arc
 			(start 0.999999 -3.700001)
-			(mid 2.060659 -3.26066)
+			(mid 2.06066 -3.26066)
 			(end 2.500003 -2.200001)
 			(stroke
 				(width 0.15)
@@ -3149,7 +3172,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.200002)
-			(mid 2.146443 -6.346448)
+			(mid 2.146446 -6.346449)
 			(end 1.999996 -6.700004)
 			(stroke
 				(width 0.15)
@@ -3410,7 +3433,7 @@
 		)
 		(fp_arc
 			(start 0.999999 -3.700001)
-			(mid 2.060659 -3.26066)
+			(mid 2.06066 -3.26066)
 			(end 2.500003 -2.200001)
 			(stroke
 				(width 0.15)
@@ -3421,7 +3444,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.200002)
-			(mid 2.146443 -6.346448)
+			(mid 2.146446 -6.346449)
 			(end 1.999996 -6.700004)
 			(stroke
 				(width 0.15)
@@ -3758,7 +3781,7 @@
 		)
 		(fp_line
 			(start 2.499998 -1.500002)
-			(end 7.000001 -1.499999)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -3787,7 +3810,7 @@
 			(uuid "dd1c543e-c4b9-4777-b153-8b21002428de")
 		)
 		(fp_line
-			(start 7.000001 -1.499999)
+			(start 7.000001 -1.5)
 			(end 6.999997 -2.000001)
 			(stroke
 				(width 0.15)
@@ -3829,7 +3852,7 @@
 		)
 		(fp_arc
 			(start 2.500003 -6.2)
-			(mid 2.146446 -6.346444)
+			(mid 2.146447 -6.346445)
 			(end 1.999998 -6.7)
 			(stroke
 				(width 0.15)
@@ -4010,7 +4033,7 @@
 		)
 		(fp_line
 			(start 2.499998 -1.500002)
-			(end 7.000001 -1.499999)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -4039,7 +4062,7 @@
 			(uuid "f1112f2e-24cf-4bff-9ee8-87f4d880a8f0")
 		)
 		(fp_line
-			(start 7.000001 -1.499999)
+			(start 7.000001 -1.5)
 			(end 6.999998 -6.200001)
 			(stroke
 				(width 0.12)
@@ -4101,7 +4124,7 @@
 		)
 		(fp_arc
 			(start 2.500003 -6.2)
-			(mid 2.146446 -6.346444)
+			(mid 2.146447 -6.346445)
 			(end 1.999998 -6.7)
 			(stroke
 				(width 0.15)
@@ -4253,7 +4276,7 @@
 			(uuid "fd24c228-5b34-41af-a00c-2d7f4580b945")
 		)
 		(pad "1" thru_hole circle
-			(at 0.000003 5.899998 354)
+			(at 0.000003 5.899999 354)
 			(size 2.032 2.032)
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
@@ -4438,7 +4461,7 @@
 		)
 		(fp_line
 			(start 2.499998 -1.500002)
-			(end 7.000001 -1.499999)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -4467,7 +4490,7 @@
 			(uuid "9e70f485-e28b-4966-99c1-f5a6028bcd9a")
 		)
 		(fp_line
-			(start 7.000001 -1.499999)
+			(start 7.000001 -1.5)
 			(end 6.999997 -2.000001)
 			(stroke
 				(width 0.15)
@@ -4509,7 +4532,7 @@
 		)
 		(fp_arc
 			(start 2.500003 -6.2)
-			(mid 2.146446 -6.346444)
+			(mid 2.146447 -6.346445)
 			(end 1.999998 -6.7)
 			(stroke
 				(width 0.15)
@@ -4690,7 +4713,7 @@
 		)
 		(fp_line
 			(start 2.499998 -1.500002)
-			(end 7.000001 -1.499999)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -4719,7 +4742,7 @@
 			(uuid "3992e910-e738-48fd-bf1a-8f4573b41c21")
 		)
 		(fp_line
-			(start 7.000001 -1.499999)
+			(start 7.000001 -1.5)
 			(end 6.999998 -6.200001)
 			(stroke
 				(width 0.12)
@@ -4781,7 +4804,7 @@
 		)
 		(fp_arc
 			(start 2.500003 -6.2)
-			(mid 2.146446 -6.346444)
+			(mid 2.146447 -6.346445)
 			(end 1.999998 -6.7)
 			(stroke
 				(width 0.15)
@@ -4933,7 +4956,7 @@
 			(uuid "5d8fc49d-0d70-4ca0-bd8e-38adbf3befe3")
 		)
 		(pad "1" thru_hole circle
-			(at 0.000003 5.899998 354)
+			(at 0.000003 5.899999 354)
 			(size 2.032 2.032)
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
@@ -5189,7 +5212,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.200001)
-			(mid 2.146444 -6.346446)
+			(mid 2.146447 -6.346447)
 			(end 1.999998 -6.7)
 			(stroke
 				(width 0.15)
@@ -5279,7 +5302,7 @@
 			(uuid "1245c914-03ff-42e7-9c47-d667b8496634")
 		)
 		(fp_line
-			(start -4.499999 -4.75)
+			(start -4.499999 -4.750001)
 			(end -4.500001 -7.249998)
 			(stroke
 				(width 0.12)
@@ -5330,7 +5353,7 @@
 		)
 		(fp_line
 			(start -2.000001 -4.749997)
-			(end -4.499999 -4.75)
+			(end -4.499999 -4.750001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -5461,7 +5484,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.200001)
-			(mid 2.146444 -6.346446)
+			(mid 2.146447 -6.346447)
 			(end 1.999998 -6.7)
 			(stroke
 				(width 0.15)
@@ -5858,7 +5881,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.700002)
-			(mid 2.060663 -3.260663)
+			(mid 2.060662 -3.260661)
 			(end 2.500007 -2.199999)
 			(stroke
 				(width 0.15)
@@ -6130,7 +6153,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.700002)
-			(mid 2.060663 -3.260663)
+			(mid 2.060662 -3.260661)
 			(end 2.500007 -2.199999)
 			(stroke
 				(width 0.15)
@@ -6376,7 +6399,7 @@
 			)
 		)
 		(property "Value" "Keyswitch"
-			(at 0.000005 8.250002 11)
+			(at 0.000006 8.250002 11)
 			(layer "F.Fab")
 			(uuid "aa7752c2-87c5-48bc-ac41-b34b6954b597")
 			(effects
@@ -6458,7 +6481,7 @@
 		)
 		(fp_line
 			(start -1.499998 -3.7)
-			(end 1 -3.700003)
+			(end 1 -3.700004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -6477,7 +6500,7 @@
 			(uuid "1ee6fa2a-84ee-4744-9f03-be5fc946cdf5")
 		)
 		(fp_line
-			(start 1.999998 -6.699998)
+			(start 1.999999 -6.699998)
 			(end 1.999997 -7.699998)
 			(stroke
 				(width 0.15)
@@ -6487,7 +6510,7 @@
 			(uuid "f892b66a-0c48-4c11-8c03-a3c9f32e9026")
 		)
 		(fp_line
-			(start 2.500002 -2.200003)
+			(start 2.500003 -2.200003)
 			(end 2.500001 -1.500001)
 			(stroke
 				(width 0.15)
@@ -6537,9 +6560,9 @@
 			(uuid "15d12bee-b5b1-4354-bc38-79089bd53906")
 		)
 		(fp_arc
-			(start 1 -3.700003)
-			(mid 2.060663 -3.260664)
-			(end 2.500002 -2.200003)
+			(start 1 -3.700004)
+			(mid 2.060663 -3.260666)
+			(end 2.500003 -2.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -6549,8 +6572,8 @@
 		)
 		(fp_arc
 			(start 2.499995 -6.200003)
-			(mid 2.146445 -6.346449)
-			(end 1.999998 -6.699998)
+			(mid 2.146448 -6.34645)
+			(end 1.999999 -6.699998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -6710,7 +6733,7 @@
 		)
 		(fp_line
 			(start -1.499998 -3.7)
-			(end 1 -3.700003)
+			(end 1 -3.700004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -6729,7 +6752,7 @@
 			(uuid "84eca6a0-cc8d-40a5-a39f-72c1116c1214")
 		)
 		(fp_line
-			(start 1.999998 -6.699998)
+			(start 1.999999 -6.699998)
 			(end 1.999997 -7.699998)
 			(stroke
 				(width 0.15)
@@ -6739,7 +6762,7 @@
 			(uuid "33cef230-e8e3-46bc-ab8f-411a14f39a48")
 		)
 		(fp_line
-			(start 2.500002 -2.200003)
+			(start 2.500003 -2.200003)
 			(end 2.500001 -1.500001)
 			(stroke
 				(width 0.15)
@@ -6809,9 +6832,9 @@
 			(uuid "645d9501-353f-43c3-ba33-3088d89866c6")
 		)
 		(fp_arc
-			(start 1 -3.700003)
-			(mid 2.060663 -3.260664)
-			(end 2.500002 -2.200003)
+			(start 1 -3.700004)
+			(mid 2.060663 -3.260666)
+			(end 2.500003 -2.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -6821,8 +6844,8 @@
 		)
 		(fp_arc
 			(start 2.499995 -6.200003)
-			(mid 2.146445 -6.346449)
-			(end 1.999998 -6.699998)
+			(mid 2.146448 -6.34645)
+			(end 1.999999 -6.699998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -7218,7 +7241,7 @@
 		)
 		(fp_arc
 			(start 0.999999 -3.700001)
-			(mid 2.060659 -3.26066)
+			(mid 2.06066 -3.26066)
 			(end 2.500003 -2.200001)
 			(stroke
 				(width 0.15)
@@ -7229,7 +7252,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.200002)
-			(mid 2.146443 -6.346448)
+			(mid 2.146446 -6.346449)
 			(end 1.999996 -6.700004)
 			(stroke
 				(width 0.15)
@@ -7490,7 +7513,7 @@
 		)
 		(fp_arc
 			(start 0.999999 -3.700001)
-			(mid 2.060659 -3.26066)
+			(mid 2.06066 -3.26066)
 			(end 2.500003 -2.200001)
 			(stroke
 				(width 0.15)
@@ -7501,7 +7524,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.200002)
-			(mid 2.146443 -6.346448)
+			(mid 2.146446 -6.346449)
 			(end 1.999996 -6.700004)
 			(stroke
 				(width 0.15)
@@ -7723,7 +7746,7 @@
 		(at 236.84 150.967486)
 		(descr "Footprint for 0xCB Helios controllers, USB pointing away from PCB")
 		(property "Reference" "U1"
-			(at -10.580002 16.439998 360)
+			(at -10.580002 16.439998 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "658d69c0-8909-4e6c-a6f8-98ebebee73ac")
@@ -7748,7 +7771,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-xp-promicroish:Helios_AC"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "991b0e8a-6375-4859-84cd-f998cdd7df35")
@@ -7760,7 +7783,7 @@
 			)
 		)
 		(property "Datasheet" "https://github.com/0xCB-dev/0xCB-Helios"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3a094ae2-9b4c-42f1-bb58-2c2c8fe721bf")
@@ -7772,7 +7795,7 @@
 			)
 		)
 		(property "Description" "Symbol for an 0xCB Helios"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ba809d9c-03ea-4d0d-96de-c3bd71999538")
@@ -7842,7 +7865,7 @@
 		)
 		(fp_arc
 			(start 8.659451 15.009447)
-			(mid 8.182546 15.328105)
+			(mid 8.182546 15.328106)
 			(end 7.619997 15.439998)
 			(stroke
 				(width 0.15)
@@ -7876,7 +7899,7 @@
 			(uuid "235b4fa9-fc01-4d53-8191-c7e080ca84f9")
 		)
 		(fp_text user "USB"
-			(at 0.000002 -16.199996 360)
+			(at 0.000002 -16.199996 0)
 			(layer "Cmts.User")
 			(uuid "118234fe-8d93-4c24-aa27-b01ba1db882c")
 			(effects
@@ -8765,7 +8788,7 @@
 			(uuid "305f8659-84c7-4823-884f-c8ea4d6e0496")
 		)
 		(fp_line
-			(start 7.000003 -5.599998)
+			(start 7.000002 -5.599998)
 			(end 7.000002 -6.199999)
 			(stroke
 				(width 0.15)
@@ -8786,7 +8809,7 @@
 		)
 		(fp_arc
 			(start 2.5 -6.199999)
-			(mid 2.146442 -6.346445)
+			(mid 2.146445 -6.346447)
 			(end 1.999997 -6.700003)
 			(stroke
 				(width 0.15)
@@ -8797,7 +8820,7 @@
 		)
 		(fp_arc
 			(start 0.999997 -3.699998)
-			(mid 2.06066 -3.260662)
+			(mid 2.06066 -3.260663)
 			(end 2.5 -2.200002)
 			(stroke
 				(width 0.15)
@@ -9058,7 +9081,7 @@
 		)
 		(fp_arc
 			(start 2.5 -6.199999)
-			(mid 2.146442 -6.346445)
+			(mid 2.146445 -6.346447)
 			(end 1.999997 -6.700003)
 			(stroke
 				(width 0.15)
@@ -9069,7 +9092,7 @@
 		)
 		(fp_arc
 			(start 0.999997 -3.699998)
-			(mid 2.06066 -3.260662)
+			(mid 2.06066 -3.260663)
 			(end 2.5 -2.200002)
 			(stroke
 				(width 0.15)
@@ -9466,7 +9489,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199998)
-			(mid 2.146444 -6.346444)
+			(mid 2.146446 -6.346444)
 			(end 1.999999 -6.699999)
 			(stroke
 				(width 0.15)
@@ -9697,7 +9720,7 @@
 			(uuid "e40ccbdf-18de-40eb-b40f-5cd823aa54d7")
 		)
 		(fp_line
-			(start 7.000006 -4.999995)
+			(start 7.000005 -4.999995)
 			(end 9.500003 -4.999999)
 			(stroke
 				(width 0.12)
@@ -9738,7 +9761,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199998)
-			(mid 2.146444 -6.346444)
+			(mid 2.146446 -6.346444)
 			(end 1.999999 -6.699999)
 			(stroke
 				(width 0.15)
@@ -10086,7 +10109,7 @@
 		)
 		(fp_line
 			(start 2.499998 -1.500002)
-			(end 7.000001 -1.499999)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -10115,7 +10138,7 @@
 			(uuid "ec59c7d3-3006-4d81-8ffe-bfa30257b679")
 		)
 		(fp_line
-			(start 7.000001 -1.499999)
+			(start 7.000001 -1.5)
 			(end 6.999997 -2.000001)
 			(stroke
 				(width 0.15)
@@ -10157,7 +10180,7 @@
 		)
 		(fp_arc
 			(start 2.500003 -6.2)
-			(mid 2.146446 -6.346444)
+			(mid 2.146447 -6.346445)
 			(end 1.999998 -6.7)
 			(stroke
 				(width 0.15)
@@ -10338,7 +10361,7 @@
 		)
 		(fp_line
 			(start 2.499998 -1.500002)
-			(end 7.000001 -1.499999)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -10367,7 +10390,7 @@
 			(uuid "fdff9b2f-d974-4b8f-9eaa-21f91304fc6e")
 		)
 		(fp_line
-			(start 7.000001 -1.499999)
+			(start 7.000001 -1.5)
 			(end 6.999998 -6.200001)
 			(stroke
 				(width 0.12)
@@ -10429,7 +10452,7 @@
 		)
 		(fp_arc
 			(start 2.500003 -6.2)
-			(mid 2.146446 -6.346444)
+			(mid 2.146447 -6.346445)
 			(end 1.999998 -6.7)
 			(stroke
 				(width 0.15)
@@ -10581,7 +10604,7 @@
 			(uuid "221ff87a-4a46-4391-87ad-02e34b14577d")
 		)
 		(pad "1" thru_hole circle
-			(at 0.000003 5.899998 354)
+			(at 0.000003 5.899999 354)
 			(size 2.032 2.032)
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
@@ -10826,7 +10849,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.700002)
-			(mid 2.060663 -3.260663)
+			(mid 2.060662 -3.260661)
 			(end 2.500007 -2.199999)
 			(stroke
 				(width 0.15)
@@ -11098,7 +11121,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.700002)
-			(mid 2.060663 -3.260663)
+			(mid 2.060662 -3.260661)
 			(end 2.500007 -2.199999)
 			(stroke
 				(width 0.15)
@@ -11506,7 +11529,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.700002)
-			(mid 2.060663 -3.260663)
+			(mid 2.060662 -3.260661)
 			(end 2.500007 -2.199999)
 			(stroke
 				(width 0.15)
@@ -11778,7 +11801,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.700002)
-			(mid 2.060663 -3.260663)
+			(mid 2.060662 -3.260661)
 			(end 2.500007 -2.199999)
 			(stroke
 				(width 0.15)
@@ -12186,7 +12209,7 @@
 		)
 		(fp_arc
 			(start 1.000001 -3.699995)
-			(mid 2.060653 -3.260656)
+			(mid 2.060657 -3.260655)
 			(end 2.500001 -2.200003)
 			(stroke
 				(width 0.15)
@@ -12197,7 +12220,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.2)
-			(mid 2.146444 -6.34645)
+			(mid 2.146443 -6.34645)
 			(end 1.999997 -6.700008)
 			(stroke
 				(width 0.15)
@@ -12207,8 +12230,8 @@
 			(uuid "3af1ea62-177a-4c81-a03a-ab9e693b01d7")
 		)
 		(fp_line
-			(start -6.899998 6.900002)
-			(end -6.900002 -6.899998)
+			(start -6.899997 6.900002)
+			(end -6.900002 -6.899997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12217,8 +12240,8 @@
 			(uuid "77af4493-d2db-43b8-ba1e-8b0ec6043e56")
 		)
 		(fp_line
-			(start -6.899998 6.900002)
-			(end 6.900002 6.899998)
+			(start -6.899997 6.900002)
+			(end 6.900002 6.899997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12267,8 +12290,8 @@
 			(uuid "aaf4fd0b-8a67-444f-8a37-7e8d1658f641")
 		)
 		(fp_line
-			(start 6.899998 -6.900002)
-			(end -6.900002 -6.899998)
+			(start 6.899997 -6.900002)
+			(end -6.900002 -6.899997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12277,8 +12300,8 @@
 			(uuid "c343816c-9940-49ea-9ad0-d540d48d993b")
 		)
 		(fp_line
-			(start 6.899998 -6.900002)
-			(end 6.900002 6.899998)
+			(start 6.899997 -6.900002)
+			(end 6.900002 6.899997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12458,7 +12481,7 @@
 		)
 		(fp_arc
 			(start 1.000001 -3.699995)
-			(mid 2.060653 -3.260656)
+			(mid 2.060657 -3.260655)
 			(end 2.500001 -2.200003)
 			(stroke
 				(width 0.15)
@@ -12469,7 +12492,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.2)
-			(mid 2.146444 -6.34645)
+			(mid 2.146443 -6.34645)
 			(end 1.999997 -6.700008)
 			(stroke
 				(width 0.15)
@@ -12775,7 +12798,7 @@
 			(uuid "82652d47-1f7f-4462-96ca-a342e6f69192")
 		)
 		(fp_line
-			(start -2.000001 -7.699999)
+			(start -2.000001 -7.7)
 			(end -1.499997 -8.2)
 			(stroke
 				(width 0.15)
@@ -12877,7 +12900,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199997)
-			(mid 2.146443 -6.346444)
+			(mid 2.146444 -6.346445)
 			(end 2 -6.700001)
 			(stroke
 				(width 0.15)
@@ -12998,7 +13021,7 @@
 		)
 		(fp_line
 			(start -2 -4.25)
-			(end -2.000001 -7.699999)
+			(end -2.000001 -7.7)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -13027,7 +13050,7 @@
 			(uuid "4a96ed99-0def-4073-a7b8-cb9290a7d956")
 		)
 		(fp_line
-			(start -2.000001 -7.699999)
+			(start -2.000001 -7.7)
 			(end -1.499997 -8.2)
 			(stroke
 				(width 0.15)
@@ -13098,7 +13121,7 @@
 		)
 		(fp_line
 			(start 7.000001 -5.000001)
-			(end 9.499999 -4.999996)
+			(end 9.499998 -4.999996)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -13127,7 +13150,7 @@
 			(uuid "ab885f73-139a-4a41-b1d2-16a0509c5eb0")
 		)
 		(fp_line
-			(start 9.499999 -4.999996)
+			(start 9.499998 -4.999996)
 			(end 9.499999 -2.500002)
 			(stroke
 				(width 0.12)
@@ -13149,7 +13172,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199997)
-			(mid 2.146443 -6.346444)
+			(mid 2.146444 -6.346445)
 			(end 2 -6.700001)
 			(stroke
 				(width 0.15)
@@ -13281,7 +13304,7 @@
 			(uuid "5cc79fe8-bb93-4736-8d95-7544bf91c597")
 		)
 		(pad "1" smd rect
-			(at -3.275001 -5.95 349)
+			(at -3.275 -5.95 349)
 			(size 2.6 2.6)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 50 "col 1")
@@ -13557,7 +13580,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.699999)
-			(mid 2.060657 -3.26066)
+			(mid 2.060658 -3.260659)
 			(end 2.5 -2.200001)
 			(stroke
 				(width 0.15)
@@ -13829,7 +13852,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.699999)
-			(mid 2.060657 -3.26066)
+			(mid 2.060658 -3.260659)
 			(end 2.5 -2.200001)
 			(stroke
 				(width 0.15)
@@ -14226,7 +14249,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.700002)
-			(mid 2.060663 -3.260663)
+			(mid 2.060662 -3.260661)
 			(end 2.500007 -2.199999)
 			(stroke
 				(width 0.15)
@@ -14498,7 +14521,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.700002)
-			(mid 2.060663 -3.260663)
+			(mid 2.060662 -3.260661)
 			(end 2.500007 -2.199999)
 			(stroke
 				(width 0.15)
@@ -14815,7 +14838,7 @@
 			(uuid "d7fd4d82-cb66-4679-b95e-533590a32710")
 		)
 		(fp_line
-			(start -2.000001 -7.699999)
+			(start -2.000001 -7.7)
 			(end -1.499997 -8.2)
 			(stroke
 				(width 0.15)
@@ -14917,7 +14940,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199997)
-			(mid 2.146443 -6.346444)
+			(mid 2.146444 -6.346445)
 			(end 2 -6.700001)
 			(stroke
 				(width 0.15)
@@ -15038,7 +15061,7 @@
 		)
 		(fp_line
 			(start -2 -4.25)
-			(end -2.000001 -7.699999)
+			(end -2.000001 -7.7)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -15067,7 +15090,7 @@
 			(uuid "62b0de2d-6e0c-4592-8ee0-03ebad15bd3b")
 		)
 		(fp_line
-			(start -2.000001 -7.699999)
+			(start -2.000001 -7.7)
 			(end -1.499997 -8.2)
 			(stroke
 				(width 0.15)
@@ -15138,7 +15161,7 @@
 		)
 		(fp_line
 			(start 7.000001 -5.000001)
-			(end 9.499999 -4.999996)
+			(end 9.499998 -4.999996)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -15167,7 +15190,7 @@
 			(uuid "772128c7-a2dc-49dc-a756-9df2badad025")
 		)
 		(fp_line
-			(start 9.499999 -4.999996)
+			(start 9.499998 -4.999996)
 			(end 9.499999 -2.500002)
 			(stroke
 				(width 0.12)
@@ -15189,7 +15212,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199997)
-			(mid 2.146443 -6.346444)
+			(mid 2.146444 -6.346445)
 			(end 2 -6.700001)
 			(stroke
 				(width 0.15)
@@ -15321,7 +15344,7 @@
 			(uuid "dd24d787-cc67-4634-8aec-e6690b6f4927")
 		)
 		(pad "1" smd rect
-			(at -3.275001 -5.95 349)
+			(at -3.275 -5.95 349)
 			(size 2.6 2.6)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 50 "col 1")
@@ -15424,7 +15447,7 @@
 			)
 		)
 		(property "Value" "Keyswitch"
-			(at 0.000005 8.250002 11)
+			(at 0.000006 8.250002 11)
 			(layer "F.Fab")
 			(uuid "f87e4c7d-f2b7-472d-a899-faf3c67ff0fa")
 			(effects
@@ -15506,7 +15529,7 @@
 		)
 		(fp_line
 			(start -1.499998 -3.7)
-			(end 1 -3.700003)
+			(end 1 -3.700004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15525,7 +15548,7 @@
 			(uuid "5bd38951-99ad-4c3f-b427-868d184b87c8")
 		)
 		(fp_line
-			(start 1.999998 -6.699998)
+			(start 1.999999 -6.699998)
 			(end 1.999997 -7.699998)
 			(stroke
 				(width 0.15)
@@ -15535,7 +15558,7 @@
 			(uuid "085565d9-c1bd-40a9-a03a-468c001f9c8e")
 		)
 		(fp_line
-			(start 2.500002 -2.200003)
+			(start 2.500003 -2.200003)
 			(end 2.500001 -1.500001)
 			(stroke
 				(width 0.15)
@@ -15585,9 +15608,9 @@
 			(uuid "9865c6a3-065e-4aa4-acbd-ecde6f19180e")
 		)
 		(fp_arc
-			(start 1 -3.700003)
-			(mid 2.060663 -3.260664)
-			(end 2.500002 -2.200003)
+			(start 1 -3.700004)
+			(mid 2.060663 -3.260666)
+			(end 2.500003 -2.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15597,8 +15620,8 @@
 		)
 		(fp_arc
 			(start 2.499995 -6.200003)
-			(mid 2.146445 -6.346449)
-			(end 1.999998 -6.699998)
+			(mid 2.146448 -6.34645)
+			(end 1.999999 -6.699998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15758,7 +15781,7 @@
 		)
 		(fp_line
 			(start -1.499998 -3.7)
-			(end 1 -3.700003)
+			(end 1 -3.700004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15777,7 +15800,7 @@
 			(uuid "756bf6c5-f4aa-4948-aa44-169f34325788")
 		)
 		(fp_line
-			(start 1.999998 -6.699998)
+			(start 1.999999 -6.699998)
 			(end 1.999997 -7.699998)
 			(stroke
 				(width 0.15)
@@ -15787,7 +15810,7 @@
 			(uuid "8b0c548f-ac9f-4139-be3f-c8690ae4ea4c")
 		)
 		(fp_line
-			(start 2.500002 -2.200003)
+			(start 2.500003 -2.200003)
 			(end 2.500001 -1.500001)
 			(stroke
 				(width 0.15)
@@ -15857,9 +15880,9 @@
 			(uuid "bab76076-1404-4754-b42a-71ab6310f605")
 		)
 		(fp_arc
-			(start 1 -3.700003)
-			(mid 2.060663 -3.260664)
-			(end 2.500002 -2.200003)
+			(start 1 -3.700004)
+			(mid 2.060663 -3.260666)
+			(end 2.500003 -2.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15869,8 +15892,8 @@
 		)
 		(fp_arc
 			(start 2.499995 -6.200003)
-			(mid 2.146445 -6.346449)
-			(end 1.999998 -6.699998)
+			(mid 2.146448 -6.34645)
+			(end 1.999999 -6.699998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -16090,7 +16113,7 @@
 		(uuid "84d45add-ea70-4e8d-94b0-2cda0040da5f")
 		(at 173.830005 191.147491)
 		(property "Reference" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "7f0cb3bd-4527-406c-96e9-ccb4631790c3")
 			(effects
@@ -16101,7 +16124,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c1783db6-580f-420f-a0fb-45f5637bafea")
 			(effects
@@ -16112,7 +16135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d1183961-da4a-40b7-b738-1d9cec5ea0a5")
@@ -16124,7 +16147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bee520db-4e80-4c1e-96da-4cee13441531")
@@ -16136,7 +16159,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e0026009-46dd-46d0-aa06-6b477ee891b0")
@@ -16172,7 +16195,7 @@
 		(uuid "870fe529-4908-46be-af33-675751dd1c8b")
 		(at 216.829997 143.647487)
 		(property "Reference" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "eaadd2e6-605a-40bc-98e4-5a7e126e6cce")
 			(effects
@@ -16183,7 +16206,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "99282fb2-2c99-4ce0-bf15-0458f8c2bab9")
 			(effects
@@ -16194,7 +16217,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d1183961-da4a-40b7-b738-1d9cec5ea0a5")
@@ -16206,7 +16229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bee520db-4e80-4c1e-96da-4cee13441531")
@@ -16218,7 +16241,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e0026009-46dd-46d0-aa06-6b477ee891b0")
@@ -16441,7 +16464,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199997)
-			(mid 2.146439 -6.346444)
+			(mid 2.146443 -6.346445)
 			(end 2.000001 -6.700003)
 			(stroke
 				(width 0.15)
@@ -16713,7 +16736,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199997)
-			(mid 2.146439 -6.346444)
+			(mid 2.146443 -6.346445)
 			(end 2.000001 -6.700003)
 			(stroke
 				(width 0.15)
@@ -17089,7 +17112,7 @@
 			(uuid "0ae08d5d-67d8-47b3-8967-7ecb5cc9c3b0")
 		)
 		(fp_line
-			(start 7.000003 -5.599998)
+			(start 7.000002 -5.599998)
 			(end 7.000002 -6.199999)
 			(stroke
 				(width 0.15)
@@ -17110,7 +17133,7 @@
 		)
 		(fp_arc
 			(start 2.5 -6.199999)
-			(mid 2.146442 -6.346445)
+			(mid 2.146445 -6.346447)
 			(end 1.999997 -6.700003)
 			(stroke
 				(width 0.15)
@@ -17121,7 +17144,7 @@
 		)
 		(fp_arc
 			(start 0.999997 -3.699998)
-			(mid 2.06066 -3.260662)
+			(mid 2.06066 -3.260663)
 			(end 2.5 -2.200002)
 			(stroke
 				(width 0.15)
@@ -17382,7 +17405,7 @@
 		)
 		(fp_arc
 			(start 2.5 -6.199999)
-			(mid 2.146442 -6.346445)
+			(mid 2.146445 -6.346447)
 			(end 1.999997 -6.700003)
 			(stroke
 				(width 0.15)
@@ -17393,7 +17416,7 @@
 		)
 		(fp_arc
 			(start 0.999997 -3.699998)
-			(mid 2.06066 -3.260662)
+			(mid 2.06066 -3.260663)
 			(end 2.5 -2.200002)
 			(stroke
 				(width 0.15)
@@ -17772,7 +17795,7 @@
 			(uuid "812b4189-f8ce-4ec1-ab82-4b78db788d18")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.000003 7.620004 360)
+			(at 0.000003 7.620004 0)
 			(layer "F.Fab")
 			(uuid "83788830-9b33-4163-8646-38c380300698")
 			(effects
@@ -18129,7 +18152,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199998)
-			(mid 2.146444 -6.346444)
+			(mid 2.146446 -6.346444)
 			(end 1.999999 -6.699999)
 			(stroke
 				(width 0.15)
@@ -18360,7 +18383,7 @@
 			(uuid "f3dde788-49a3-4104-9a93-77d3f46d69a7")
 		)
 		(fp_line
-			(start 7.000006 -4.999995)
+			(start 7.000005 -4.999995)
 			(end 9.500003 -4.999999)
 			(stroke
 				(width 0.12)
@@ -18401,7 +18424,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199998)
-			(mid 2.146444 -6.346444)
+			(mid 2.146446 -6.346444)
 			(end 1.999999 -6.699999)
 			(stroke
 				(width 0.15)
@@ -18820,7 +18843,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199997)
-			(mid 2.146439 -6.346444)
+			(mid 2.146443 -6.346445)
 			(end 2.000001 -6.700003)
 			(stroke
 				(width 0.15)
@@ -19092,7 +19115,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199997)
-			(mid 2.146439 -6.346444)
+			(mid 2.146443 -6.346445)
 			(end 2.000001 -6.700003)
 			(stroke
 				(width 0.15)
@@ -19489,7 +19512,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.700002)
-			(mid 2.060663 -3.260663)
+			(mid 2.060662 -3.260661)
 			(end 2.500007 -2.199999)
 			(stroke
 				(width 0.15)
@@ -19761,7 +19784,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.700002)
-			(mid 2.060663 -3.260663)
+			(mid 2.060662 -3.260661)
 			(end 2.500007 -2.199999)
 			(stroke
 				(width 0.15)
@@ -20169,7 +20192,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.700002)
-			(mid 2.060663 -3.260663)
+			(mid 2.060662 -3.260661)
 			(end 2.500007 -2.199999)
 			(stroke
 				(width 0.15)
@@ -20441,7 +20464,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.700002)
-			(mid 2.060663 -3.260663)
+			(mid 2.060662 -3.260661)
 			(end 2.500007 -2.199999)
 			(stroke
 				(width 0.15)
@@ -20849,7 +20872,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199998)
-			(mid 2.146444 -6.346444)
+			(mid 2.146446 -6.346444)
 			(end 1.999999 -6.699999)
 			(stroke
 				(width 0.15)
@@ -21080,7 +21103,7 @@
 			(uuid "4f21673d-e086-4319-b78e-49000b378fdd")
 		)
 		(fp_line
-			(start 7.000006 -4.999995)
+			(start 7.000005 -4.999995)
 			(end 9.500003 -4.999999)
 			(stroke
 				(width 0.12)
@@ -21121,7 +21144,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199998)
-			(mid 2.146444 -6.346444)
+			(mid 2.146446 -6.346444)
 			(end 1.999999 -6.699999)
 			(stroke
 				(width 0.15)
@@ -21540,7 +21563,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.200001)
-			(mid 2.146444 -6.346446)
+			(mid 2.146447 -6.346447)
 			(end 1.999998 -6.7)
 			(stroke
 				(width 0.15)
@@ -21630,7 +21653,7 @@
 			(uuid "2659ce28-432d-4d1b-b9fc-e00b2e819c83")
 		)
 		(fp_line
-			(start -4.499999 -4.75)
+			(start -4.499999 -4.750001)
 			(end -4.500001 -7.249998)
 			(stroke
 				(width 0.12)
@@ -21681,7 +21704,7 @@
 		)
 		(fp_line
 			(start -2.000001 -4.749997)
-			(end -4.499999 -4.75)
+			(end -4.499999 -4.750001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -21812,7 +21835,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.200001)
-			(mid 2.146444 -6.346446)
+			(mid 2.146447 -6.346447)
 			(end 1.999998 -6.7)
 			(stroke
 				(width 0.15)
@@ -22209,7 +22232,7 @@
 		)
 		(fp_arc
 			(start 1.000001 -3.699995)
-			(mid 2.060653 -3.260656)
+			(mid 2.060657 -3.260655)
 			(end 2.500001 -2.200003)
 			(stroke
 				(width 0.15)
@@ -22220,7 +22243,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.2)
-			(mid 2.146444 -6.34645)
+			(mid 2.146443 -6.34645)
 			(end 1.999997 -6.700008)
 			(stroke
 				(width 0.15)
@@ -22230,8 +22253,8 @@
 			(uuid "ab6fbf7c-cd15-4f14-9311-a759a6193e08")
 		)
 		(fp_line
-			(start -6.899998 6.900002)
-			(end -6.900002 -6.899998)
+			(start -6.899997 6.900002)
+			(end -6.900002 -6.899997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -22240,8 +22263,8 @@
 			(uuid "efa35deb-680c-4b3e-b2a1-a9600d397882")
 		)
 		(fp_line
-			(start -6.899998 6.900002)
-			(end 6.900002 6.899998)
+			(start -6.899997 6.900002)
+			(end 6.900002 6.899997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -22290,8 +22313,8 @@
 			(uuid "1c7d6a1f-5334-41b9-b78a-31f725e7d612")
 		)
 		(fp_line
-			(start 6.899998 -6.900002)
-			(end -6.900002 -6.899998)
+			(start 6.899997 -6.900002)
+			(end -6.900002 -6.899997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -22300,8 +22323,8 @@
 			(uuid "776f9ea3-41d5-46a4-a108-03f0847c7bf1")
 		)
 		(fp_line
-			(start 6.899998 -6.900002)
-			(end 6.900002 6.899998)
+			(start 6.899997 -6.900002)
+			(end 6.900002 6.899997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -22481,7 +22504,7 @@
 		)
 		(fp_arc
 			(start 1.000001 -3.699995)
-			(mid 2.060653 -3.260656)
+			(mid 2.060657 -3.260655)
 			(end 2.500001 -2.200003)
 			(stroke
 				(width 0.15)
@@ -22492,7 +22515,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.2)
-			(mid 2.146444 -6.34645)
+			(mid 2.146443 -6.34645)
 			(end 1.999997 -6.700008)
 			(stroke
 				(width 0.15)
@@ -22713,7 +22736,7 @@
 		(uuid "a96a31ee-0cc1-4207-9b5f-5cb37944d903")
 		(at 116.830003 93.647495)
 		(property "Reference" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "1cbef9a2-9ae4-42bb-9299-a952105aac96")
 			(effects
@@ -22724,7 +22747,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "479c1aa8-284b-4f45-b128-0d2a491afd40")
 			(effects
@@ -22735,7 +22758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d1183961-da4a-40b7-b738-1d9cec5ea0a5")
@@ -22747,7 +22770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bee520db-4e80-4c1e-96da-4cee13441531")
@@ -22759,7 +22782,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e0026009-46dd-46d0-aa06-6b477ee891b0")
@@ -22795,7 +22818,7 @@
 		(uuid "aa82ba02-b79a-4097-8d5f-e5dcf413e9ff")
 		(at 111.829996 150.147488)
 		(property "Reference" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "0c2acf9a-77ce-4188-a37e-d8b8fc23c592")
 			(effects
@@ -22806,7 +22829,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2681e01d-fa1c-4a16-9e09-9f723ea8af89")
 			(effects
@@ -22817,7 +22840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d1183961-da4a-40b7-b738-1d9cec5ea0a5")
@@ -22829,7 +22852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bee520db-4e80-4c1e-96da-4cee13441531")
@@ -22841,7 +22864,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e0026009-46dd-46d0-aa06-6b477ee891b0")
@@ -22891,7 +22914,7 @@
 			)
 		)
 		(property "Value" "Keyswitch"
-			(at 0.000005 8.250002 11)
+			(at 0.000006 8.250002 11)
 			(layer "F.Fab")
 			(uuid "065710b5-5462-470b-9cda-59add8d0aa3e")
 			(effects
@@ -22973,7 +22996,7 @@
 		)
 		(fp_line
 			(start -1.499998 -3.7)
-			(end 1 -3.700003)
+			(end 1 -3.700004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -22992,7 +23015,7 @@
 			(uuid "7ddb2ae9-bff6-4a04-8abd-3fafb17c0dea")
 		)
 		(fp_line
-			(start 1.999998 -6.699998)
+			(start 1.999999 -6.699998)
 			(end 1.999997 -7.699998)
 			(stroke
 				(width 0.15)
@@ -23002,7 +23025,7 @@
 			(uuid "c8739524-dc92-44a8-9d4c-6a1e6fe317aa")
 		)
 		(fp_line
-			(start 2.500002 -2.200003)
+			(start 2.500003 -2.200003)
 			(end 2.500001 -1.500001)
 			(stroke
 				(width 0.15)
@@ -23052,9 +23075,9 @@
 			(uuid "a3a436f1-3cb3-44de-ac6c-e3a6b3e00e6f")
 		)
 		(fp_arc
-			(start 1 -3.700003)
-			(mid 2.060663 -3.260664)
-			(end 2.500002 -2.200003)
+			(start 1 -3.700004)
+			(mid 2.060663 -3.260666)
+			(end 2.500003 -2.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -23064,8 +23087,8 @@
 		)
 		(fp_arc
 			(start 2.499995 -6.200003)
-			(mid 2.146445 -6.346449)
-			(end 1.999998 -6.699998)
+			(mid 2.146448 -6.34645)
+			(end 1.999999 -6.699998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -23225,7 +23248,7 @@
 		)
 		(fp_line
 			(start -1.499998 -3.7)
-			(end 1 -3.700003)
+			(end 1 -3.700004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -23244,7 +23267,7 @@
 			(uuid "420d145a-6267-4e80-903e-82c9d419da27")
 		)
 		(fp_line
-			(start 1.999998 -6.699998)
+			(start 1.999999 -6.699998)
 			(end 1.999997 -7.699998)
 			(stroke
 				(width 0.15)
@@ -23254,7 +23277,7 @@
 			(uuid "8cb3d8ec-5bbb-47cb-ab9d-207c59e5e73e")
 		)
 		(fp_line
-			(start 2.500002 -2.200003)
+			(start 2.500003 -2.200003)
 			(end 2.500001 -1.500001)
 			(stroke
 				(width 0.15)
@@ -23324,9 +23347,9 @@
 			(uuid "92554422-3b68-4bef-a54e-bc36a37535e0")
 		)
 		(fp_arc
-			(start 1 -3.700003)
-			(mid 2.060663 -3.260664)
-			(end 2.500002 -2.200003)
+			(start 1 -3.700004)
+			(mid 2.060663 -3.260666)
+			(end 2.500003 -2.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -23336,8 +23359,8 @@
 		)
 		(fp_arc
 			(start 2.499995 -6.200003)
-			(mid 2.146445 -6.346449)
-			(end 1.999998 -6.699998)
+			(mid 2.146448 -6.34645)
+			(end 1.999999 -6.699998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -23733,7 +23756,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.700002)
-			(mid 2.060663 -3.260663)
+			(mid 2.060662 -3.260661)
 			(end 2.500007 -2.199999)
 			(stroke
 				(width 0.15)
@@ -24005,7 +24028,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.700002)
-			(mid 2.060663 -3.260663)
+			(mid 2.060662 -3.260661)
 			(end 2.500007 -2.199999)
 			(stroke
 				(width 0.15)
@@ -24413,7 +24436,7 @@
 		)
 		(fp_arc
 			(start 0.999999 -3.700001)
-			(mid 2.060659 -3.26066)
+			(mid 2.06066 -3.26066)
 			(end 2.500003 -2.200001)
 			(stroke
 				(width 0.15)
@@ -24424,7 +24447,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.200002)
-			(mid 2.146443 -6.346448)
+			(mid 2.146446 -6.346449)
 			(end 1.999996 -6.700004)
 			(stroke
 				(width 0.15)
@@ -24685,7 +24708,7 @@
 		)
 		(fp_arc
 			(start 0.999999 -3.700001)
-			(mid 2.060659 -3.26066)
+			(mid 2.06066 -3.26066)
 			(end 2.500003 -2.200001)
 			(stroke
 				(width 0.15)
@@ -24696,7 +24719,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.200002)
-			(mid 2.146443 -6.346448)
+			(mid 2.146446 -6.346449)
 			(end 1.999996 -6.700004)
 			(stroke
 				(width 0.15)
@@ -25093,7 +25116,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.700002)
-			(mid 2.060663 -3.260663)
+			(mid 2.060662 -3.260661)
 			(end 2.500007 -2.199999)
 			(stroke
 				(width 0.15)
@@ -25365,7 +25388,7 @@
 		)
 		(fp_arc
 			(start 0.999998 -3.700002)
-			(mid 2.060663 -3.260663)
+			(mid 2.060662 -3.260661)
 			(end 2.500007 -2.199999)
 			(stroke
 				(width 0.15)
@@ -25773,7 +25796,7 @@
 		)
 		(fp_arc
 			(start 0.999997 -3.7)
-			(mid 2.060657 -3.260661)
+			(mid 2.060658 -3.26066)
 			(end 2.500001 -2.200002)
 			(stroke
 				(width 0.15)
@@ -25784,7 +25807,7 @@
 		)
 		(fp_arc
 			(start 2.5 -6.2)
-			(mid 2.146449 -6.346448)
+			(mid 2.146447 -6.346447)
 			(end 1.999999 -6.7)
 			(stroke
 				(width 0.15)
@@ -26005,7 +26028,7 @@
 		)
 		(fp_line
 			(start 9.500001 -2.499999)
-			(end 7 -2.500002)
+			(end 6.999999 -2.500002)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -26045,7 +26068,7 @@
 		)
 		(fp_arc
 			(start 0.999997 -3.7)
-			(mid 2.060657 -3.260661)
+			(mid 2.060658 -3.26066)
 			(end 2.500001 -2.200002)
 			(stroke
 				(width 0.15)
@@ -26056,7 +26079,7 @@
 		)
 		(fp_arc
 			(start 2.5 -6.2)
-			(mid 2.146449 -6.346448)
+			(mid 2.146447 -6.346447)
 			(end 1.999999 -6.7)
 			(stroke
 				(width 0.15)
@@ -26464,7 +26487,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199997)
-			(mid 2.146439 -6.346444)
+			(mid 2.146443 -6.346445)
 			(end 2.000001 -6.700003)
 			(stroke
 				(width 0.15)
@@ -26736,7 +26759,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199997)
-			(mid 2.146439 -6.346444)
+			(mid 2.146443 -6.346445)
 			(end 2.000001 -6.700003)
 			(stroke
 				(width 0.15)
@@ -26957,7 +26980,7 @@
 		(uuid "bb68827c-f8c7-42e1-bd7a-810e9677fe9f")
 		(at 190.330001 109.647485)
 		(property "Reference" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "a17fb87d-bf9a-4609-9030-566dbda005c3")
 			(effects
@@ -26968,7 +26991,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "5b75e297-5f07-45d0-affe-2d725e2bfc22")
 			(effects
@@ -26979,7 +27002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d1183961-da4a-40b7-b738-1d9cec5ea0a5")
@@ -26991,7 +27014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bee520db-4e80-4c1e-96da-4cee13441531")
@@ -27003,7 +27026,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e0026009-46dd-46d0-aa06-6b477ee891b0")
@@ -27226,7 +27249,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.200001)
-			(mid 2.146444 -6.346446)
+			(mid 2.146447 -6.346447)
 			(end 1.999998 -6.7)
 			(stroke
 				(width 0.15)
@@ -27316,7 +27339,7 @@
 			(uuid "616d2d54-35be-468f-a83d-7080d5c9220a")
 		)
 		(fp_line
-			(start -4.499999 -4.75)
+			(start -4.499999 -4.750001)
 			(end -4.500001 -7.249998)
 			(stroke
 				(width 0.12)
@@ -27367,7 +27390,7 @@
 		)
 		(fp_line
 			(start -2.000001 -4.749997)
-			(end -4.499999 -4.75)
+			(end -4.499999 -4.750001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -27498,7 +27521,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.200001)
-			(mid 2.146444 -6.346446)
+			(mid 2.146447 -6.346447)
 			(end 1.999998 -6.7)
 			(stroke
 				(width 0.15)
@@ -28575,7 +28598,7 @@
 		)
 		(fp_arc
 			(start 1.000001 -3.699995)
-			(mid 2.060653 -3.260656)
+			(mid 2.060657 -3.260655)
 			(end 2.500001 -2.200003)
 			(stroke
 				(width 0.15)
@@ -28586,7 +28609,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.2)
-			(mid 2.146444 -6.34645)
+			(mid 2.146443 -6.34645)
 			(end 1.999997 -6.700008)
 			(stroke
 				(width 0.15)
@@ -28596,8 +28619,8 @@
 			(uuid "1b6c75fa-c22f-433b-9aa5-e038c7e1ae94")
 		)
 		(fp_line
-			(start -6.899998 6.900002)
-			(end -6.900002 -6.899998)
+			(start -6.899997 6.900002)
+			(end -6.900002 -6.899997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -28606,8 +28629,8 @@
 			(uuid "fe1e152a-f755-479a-a9ab-9fd869970d01")
 		)
 		(fp_line
-			(start -6.899998 6.900002)
-			(end 6.900002 6.899998)
+			(start -6.899997 6.900002)
+			(end 6.900002 6.899997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -28656,8 +28679,8 @@
 			(uuid "02b37c64-65e3-422f-997f-541fa957f9e0")
 		)
 		(fp_line
-			(start 6.899998 -6.900002)
-			(end -6.900002 -6.899998)
+			(start 6.899997 -6.900002)
+			(end -6.900002 -6.899997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -28666,8 +28689,8 @@
 			(uuid "9716e307-a124-477e-b712-faf06ee08a04")
 		)
 		(fp_line
-			(start 6.899998 -6.900002)
-			(end 6.900002 6.899998)
+			(start 6.899997 -6.900002)
+			(end 6.900002 6.899997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -28847,7 +28870,7 @@
 		)
 		(fp_arc
 			(start 1.000001 -3.699995)
-			(mid 2.060653 -3.260656)
+			(mid 2.060657 -3.260655)
 			(end 2.500001 -2.200003)
 			(stroke
 				(width 0.15)
@@ -28858,7 +28881,7 @@
 		)
 		(fp_arc
 			(start 2.499999 -6.2)
-			(mid 2.146444 -6.34645)
+			(mid 2.146443 -6.34645)
 			(end 1.999997 -6.700008)
 			(stroke
 				(width 0.15)
@@ -29255,7 +29278,7 @@
 		)
 		(fp_arc
 			(start 1 -3.7)
-			(mid 2.06066 -3.260661)
+			(mid 2.060659 -3.260662)
 			(end 2.499998 -2.200003)
 			(stroke
 				(width 0.15)
@@ -29266,7 +29289,7 @@
 		)
 		(fp_arc
 			(start 2.5 -6.200004)
-			(mid 2.146452 -6.346449)
+			(mid 2.14645 -6.346449)
 			(end 2 -6.699998)
 			(stroke
 				(width 0.15)
@@ -29527,7 +29550,7 @@
 		)
 		(fp_arc
 			(start 1 -3.7)
-			(mid 2.06066 -3.260661)
+			(mid 2.060659 -3.260662)
 			(end 2.499998 -2.200003)
 			(stroke
 				(width 0.15)
@@ -29538,7 +29561,7 @@
 		)
 		(fp_arc
 			(start 2.5 -6.200004)
-			(mid 2.146452 -6.346449)
+			(mid 2.14645 -6.346449)
 			(end 2 -6.699998)
 			(stroke
 				(width 0.15)
@@ -29656,7 +29679,7 @@
 			(uuid "f5c0801a-bbf8-46e1-b15c-3cc73b6d227c")
 		)
 		(pad "" np_thru_hole circle
-			(at 5.000002 -3.75 24)
+			(at 5.000002 -3.749999 24)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
@@ -29935,7 +29958,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199998)
-			(mid 2.146444 -6.346444)
+			(mid 2.146446 -6.346444)
 			(end 1.999999 -6.699999)
 			(stroke
 				(width 0.15)
@@ -30166,7 +30189,7 @@
 			(uuid "2f64ada0-e9e8-4774-b903-f0751ed41203")
 		)
 		(fp_line
-			(start 7.000006 -4.999995)
+			(start 7.000005 -4.999995)
 			(end 9.500003 -4.999999)
 			(stroke
 				(width 0.12)
@@ -30207,7 +30230,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199998)
-			(mid 2.146444 -6.346444)
+			(mid 2.146446 -6.346444)
 			(end 1.999999 -6.699999)
 			(stroke
 				(width 0.15)
@@ -30615,7 +30638,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199998)
-			(mid 2.146444 -6.346444)
+			(mid 2.146446 -6.346444)
 			(end 1.999999 -6.699999)
 			(stroke
 				(width 0.15)
@@ -30846,7 +30869,7 @@
 			(uuid "849f6b93-0159-415e-a296-6cde8ff6be86")
 		)
 		(fp_line
-			(start 7.000006 -4.999995)
+			(start 7.000005 -4.999995)
 			(end 9.500003 -4.999999)
 			(stroke
 				(width 0.12)
@@ -30887,7 +30910,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199998)
-			(mid 2.146444 -6.346444)
+			(mid 2.146446 -6.346444)
 			(end 1.999999 -6.699999)
 			(stroke
 				(width 0.15)
@@ -31204,7 +31227,7 @@
 			(uuid "245de268-af13-4f01-bb92-8ab9bb9cbb59")
 		)
 		(fp_line
-			(start -2.000001 -7.699999)
+			(start -2.000001 -7.7)
 			(end -1.499997 -8.2)
 			(stroke
 				(width 0.15)
@@ -31306,7 +31329,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199997)
-			(mid 2.146443 -6.346444)
+			(mid 2.146444 -6.346445)
 			(end 2 -6.700001)
 			(stroke
 				(width 0.15)
@@ -31427,7 +31450,7 @@
 		)
 		(fp_line
 			(start -2 -4.25)
-			(end -2.000001 -7.699999)
+			(end -2.000001 -7.7)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -31456,7 +31479,7 @@
 			(uuid "f2fded3d-4e02-44d2-b5d1-10ad4e399b5c")
 		)
 		(fp_line
-			(start -2.000001 -7.699999)
+			(start -2.000001 -7.7)
 			(end -1.499997 -8.2)
 			(stroke
 				(width 0.15)
@@ -31527,7 +31550,7 @@
 		)
 		(fp_line
 			(start 7.000001 -5.000001)
-			(end 9.499999 -4.999996)
+			(end 9.499998 -4.999996)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -31556,7 +31579,7 @@
 			(uuid "057ecbe8-dc2f-4dd3-93cf-5ba12b45c054")
 		)
 		(fp_line
-			(start 9.499999 -4.999996)
+			(start 9.499998 -4.999996)
 			(end 9.499999 -2.500002)
 			(stroke
 				(width 0.12)
@@ -31578,7 +31601,7 @@
 		)
 		(fp_arc
 			(start 2.500001 -6.199997)
-			(mid 2.146443 -6.346444)
+			(mid 2.146444 -6.346445)
 			(end 2 -6.700001)
 			(stroke
 				(width 0.15)
@@ -31710,7 +31733,7 @@
 			(uuid "396a418e-b1a2-4ed0-8170-c2076d64b799")
 		)
 		(pad "1" smd rect
-			(at -3.275001 -5.95 349)
+			(at -3.275 -5.95 349)
 			(size 2.6 2.6)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 50 "col 1")
@@ -33382,7 +33405,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at -0.000003 -2.099993 101)
+			(at -0.000002 -2.099993 101)
 			(layer "B.Fab")
 			(uuid "5bef2d48-9536-448c-8acd-bf9e0e92165a")
 			(effects
@@ -34485,7 +34508,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.650006 0.000004 84)
+			(at -1.650007 0.000004 84)
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -34506,7 +34529,7 @@
 			(uuid "9129ab93-20d5-4af6-8dec-43b1e7bca3d9")
 		)
 		(pad "2" smd roundrect
-			(at 1.650006 -0.000004 84)
+			(at 1.650007 -0.000004 84)
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -34543,7 +34566,7 @@
 		(uuid "20d5b368-3c76-45a4-8623-701238ad6c60")
 		(at 361.810027 150.102006 180)
 		(property "Reference" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "9ad12842-7391-4355-9753-5cda8e20cad5")
 			(effects
@@ -34555,7 +34578,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "fa4220bd-f5d2-42ef-8ce1-d351bb698c2b")
 			(effects
@@ -34567,7 +34590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d1183961-da4a-40b7-b738-1d9cec5ea0a5")
@@ -34580,7 +34603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bee520db-4e80-4c1e-96da-4cee13441531")
@@ -34593,7 +34616,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e0026009-46dd-46d0-aa06-6b477ee891b0")
@@ -35135,7 +35158,7 @@
 		)
 		(fp_line
 			(start 0.250001 -0.4)
-			(end 0.250002 0.399998)
+			(end 0.250002 0.399997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -35184,7 +35207,7 @@
 			(uuid "bd2e2976-9ca9-4fd1-b17e-a215de812cd0")
 		)
 		(fp_line
-			(start 0.250002 0.399998)
+			(start 0.250002 0.399997)
 			(end -0.350004 -0.000004)
 			(stroke
 				(width 0.15)
@@ -35255,7 +35278,7 @@
 		)
 		(fp_line
 			(start 0.250001 -0.4)
-			(end 0.250002 0.399998)
+			(end 0.250002 0.399997)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -35324,7 +35347,7 @@
 			(uuid "b2883283-1673-4cc6-aaae-90c2456b110c")
 		)
 		(fp_line
-			(start 0.250002 0.399998)
+			(start 0.250002 0.399997)
 			(end -0.350004 -0.000004)
 			(stroke
 				(width 0.1)
@@ -36371,7 +36394,7 @@
 		)
 		(fp_line
 			(start 2.350007 -1.149998)
-			(end 2.349999 1.150003)
+			(end 2.35 1.150003)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -36380,7 +36403,7 @@
 			(uuid "6e788a8e-88e8-45ee-9c7f-42873262db99")
 		)
 		(fp_line
-			(start -2.349999 -1.150003)
+			(start -2.35 -1.150003)
 			(end 2.350007 -1.149998)
 			(stroke
 				(width 0.05)
@@ -36390,7 +36413,7 @@
 			(uuid "921b005d-3a9b-4f88-bca5-e4b229a9a0c1")
 		)
 		(fp_line
-			(start -2.349999 -1.150003)
+			(start -2.35 -1.150003)
 			(end -2.350007 1.149998)
 			(stroke
 				(width 0.05)
@@ -36400,7 +36423,7 @@
 			(uuid "21d9eb56-5b9c-4783-9bed-4686a25a01bf")
 		)
 		(fp_line
-			(start 2.349999 1.150003)
+			(start 2.35 1.150003)
 			(end -2.350007 1.149998)
 			(stroke
 				(width 0.05)
@@ -36982,7 +37005,7 @@
 		(uuid "5b332660-4d25-4c02-a307-ddc4da348826")
 		(at 299.810033 191.102007 180)
 		(property "Reference" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "a293ece3-37da-4418-a64e-7dc833ff89b2")
 			(effects
@@ -36994,7 +37017,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "f7c7b58e-6764-41f4-b6fe-251a2f7322bb")
 			(effects
@@ -37006,7 +37029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d1183961-da4a-40b7-b738-1d9cec5ea0a5")
@@ -37019,7 +37042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bee520db-4e80-4c1e-96da-4cee13441531")
@@ -37032,7 +37055,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e0026009-46dd-46d0-aa06-6b477ee891b0")
@@ -37564,7 +37587,7 @@
 		(attr smd)
 		(fp_line
 			(start -0.350005 -0.549996)
-			(end -0.350003 0.000002)
+			(end -0.350002 0.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -37583,7 +37606,7 @@
 			(uuid "a87f490c-ba39-44fd-8cd3-d623c8bdf0c6")
 		)
 		(fp_line
-			(start -0.350003 0.000002)
+			(start -0.350002 0.000002)
 			(end -0.749996 -0.000003)
 			(stroke
 				(width 0.15)
@@ -37593,7 +37616,7 @@
 			(uuid "7d7aaafb-3db4-496f-834b-209940586345")
 		)
 		(fp_line
-			(start -0.350003 0.000002)
+			(start -0.350002 0.000002)
 			(end 0.250003 -0.400003)
 			(stroke
 				(width 0.15)
@@ -37614,7 +37637,7 @@
 		)
 		(fp_line
 			(start -0.349996 0.55)
-			(end -0.350003 0.000002)
+			(end -0.350002 0.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -37624,7 +37647,7 @@
 		)
 		(fp_line
 			(start 0.249998 0.400004)
-			(end -0.350003 0.000002)
+			(end -0.350002 0.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -37684,7 +37707,7 @@
 		)
 		(fp_line
 			(start -0.350005 -0.549996)
-			(end -0.350003 0.000002)
+			(end -0.350002 0.000002)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -37713,7 +37736,7 @@
 			(uuid "77466625-7919-4a89-aeb9-eea99f96052b")
 		)
 		(fp_line
-			(start -0.350003 0.000002)
+			(start -0.350002 0.000002)
 			(end -0.749996 -0.000003)
 			(stroke
 				(width 0.1)
@@ -37723,7 +37746,7 @@
 			(uuid "8d3ceb8c-d32b-4612-babf-e8351a3ba575")
 		)
 		(fp_line
-			(start -0.350003 0.000002)
+			(start -0.350002 0.000002)
 			(end 0.250003 -0.400003)
 			(stroke
 				(width 0.1)
@@ -37754,7 +37777,7 @@
 		)
 		(fp_line
 			(start -0.349996 0.55)
-			(end -0.350003 0.000002)
+			(end -0.350002 0.000002)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -37764,7 +37787,7 @@
 		)
 		(fp_line
 			(start 0.249998 0.400004)
-			(end -0.350003 0.000002)
+			(end -0.350002 0.000002)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -37868,7 +37891,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at -0.000003 -2.099993 101)
+			(at -0.000002 -2.099993 101)
 			(layer "B.Fab")
 			(uuid "96c737a7-9490-430c-b2de-aab29d88de4f")
 			(effects
@@ -38245,7 +38268,7 @@
 		(uuid "7405b8c5-f2c7-4762-b6a6-9ad1c9f15015")
 		(at 256.810022 143.602006 180)
 		(property "Reference" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "02bdf2ec-856c-41d9-835d-fdabe8c1d210")
 			(effects
@@ -38257,7 +38280,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "434addbf-8f7e-437d-ba3b-8639f4bb3800")
 			(effects
@@ -38269,7 +38292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d1183961-da4a-40b7-b738-1d9cec5ea0a5")
@@ -38282,7 +38305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bee520db-4e80-4c1e-96da-4cee13441531")
@@ -38295,7 +38318,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e0026009-46dd-46d0-aa06-6b477ee891b0")
@@ -39681,7 +39704,7 @@
 		)
 		(fp_line
 			(start 2.350007 -1.149998)
-			(end 2.349999 1.150003)
+			(end 2.35 1.150003)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -39690,7 +39713,7 @@
 			(uuid "b3754e3d-1f56-48c2-b936-6731e5f5abc4")
 		)
 		(fp_line
-			(start -2.349999 -1.150003)
+			(start -2.35 -1.150003)
 			(end 2.350007 -1.149998)
 			(stroke
 				(width 0.05)
@@ -39700,7 +39723,7 @@
 			(uuid "9af5e0d1-c025-4045-8a06-8884b614bb88")
 		)
 		(fp_line
-			(start -2.349999 -1.150003)
+			(start -2.35 -1.150003)
 			(end -2.350007 1.149998)
 			(stroke
 				(width 0.05)
@@ -39710,7 +39733,7 @@
 			(uuid "eadb7766-d30a-4e87-902c-5b773bdcfc0a")
 		)
 		(fp_line
-			(start 2.349999 1.150003)
+			(start 2.35 1.150003)
 			(end -2.350007 1.149998)
 			(stroke
 				(width 0.05)
@@ -39900,7 +39923,7 @@
 		(uuid "7e9ca2eb-0fc6-410e-a60e-f8eeaa4bbdea")
 		(at 283.310021 109.602008 180)
 		(property "Reference" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "dcd398c4-dbb3-4452-b441-7043869a409f")
 			(effects
@@ -39912,7 +39935,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "f95e823c-d836-4ddd-9e43-9f3f4efe25bf")
 			(effects
@@ -39924,7 +39947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d1183961-da4a-40b7-b738-1d9cec5ea0a5")
@@ -39937,7 +39960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bee520db-4e80-4c1e-96da-4cee13441531")
@@ -39950,7 +39973,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e0026009-46dd-46d0-aa06-6b477ee891b0")
@@ -41178,7 +41201,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at -0.000003 -2.099993 101)
+			(at -0.000002 -2.099993 101)
 			(layer "B.Fab")
 			(uuid "5088f90a-da3c-4436-b441-300b310bfbd0")
 			(effects
@@ -42442,7 +42465,7 @@
 		(attr smd)
 		(fp_line
 			(start 0.249993 -0.399999)
-			(end 0.250005 0.399995)
+			(end 0.250005 0.399996)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -42491,7 +42514,7 @@
 			(uuid "21c692ce-c59c-48c1-9dad-86dab8805e10")
 		)
 		(fp_line
-			(start 0.250005 0.399995)
+			(start 0.250005 0.399996)
 			(end -0.349996 0)
 			(stroke
 				(width 0.15)
@@ -42562,7 +42585,7 @@
 		)
 		(fp_line
 			(start 0.249993 -0.399999)
-			(end 0.250005 0.399995)
+			(end 0.250005 0.399996)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -42631,7 +42654,7 @@
 			(uuid "0c016713-9043-4d9e-8564-c5dfd5485e56")
 		)
 		(fp_line
-			(start 0.250005 0.399995)
+			(start 0.250005 0.399996)
 			(end -0.349996 0)
 			(stroke
 				(width 0.1)
@@ -43226,7 +43249,7 @@
 		(attr smd)
 		(fp_line
 			(start 0.249993 -0.399999)
-			(end 0.250005 0.399995)
+			(end 0.250005 0.399996)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -43275,7 +43298,7 @@
 			(uuid "b0fd7204-15bb-4d2f-b41e-28f940a4b5c6")
 		)
 		(fp_line
-			(start 0.250005 0.399995)
+			(start 0.250005 0.399996)
 			(end -0.349996 0)
 			(stroke
 				(width 0.15)
@@ -43346,7 +43369,7 @@
 		)
 		(fp_line
 			(start 0.249993 -0.399999)
-			(end 0.250005 0.399995)
+			(end 0.250005 0.399996)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -43415,7 +43438,7 @@
 			(uuid "df464f11-5b88-4da0-b737-d77ddbf957af")
 		)
 		(fp_line
-			(start 0.250005 0.399995)
+			(start 0.250005 0.399996)
 			(end -0.349996 0)
 			(stroke
 				(width 0.1)
@@ -43849,7 +43872,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.650006 0.000004 84)
+			(at -1.650007 0.000004 84)
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -43870,7 +43893,7 @@
 			(uuid "2a3d3855-6dbc-4f08-890b-d782b9809055")
 		)
 		(pad "2" smd roundrect
-			(at 1.650006 -0.000004 84)
+			(at 1.650007 -0.000004 84)
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -45083,7 +45106,7 @@
 		(uuid "c33e4b2e-5e1d-4d3b-8cd8-09a747e9c2e5")
 		(at 356.810026 93.602017 180)
 		(property "Reference" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "1aebb438-6e60-4099-bd65-805f9be010ab")
 			(effects
@@ -45095,7 +45118,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "c93d14e6-a833-4c67-9ff2-27f5d20aa4f0")
 			(effects
@@ -45107,7 +45130,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d1183961-da4a-40b7-b738-1d9cec5ea0a5")
@@ -45120,7 +45143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bee520db-4e80-4c1e-96da-4cee13441531")
@@ -45133,7 +45156,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e0026009-46dd-46d0-aa06-6b477ee891b0")
@@ -46057,7 +46080,7 @@
 		(attr smd)
 		(fp_line
 			(start 0.249993 -0.399999)
-			(end 0.250005 0.399995)
+			(end 0.250005 0.399996)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -46106,7 +46129,7 @@
 			(uuid "1bd3e91d-1f75-498e-a1e1-36dc488339b5")
 		)
 		(fp_line
-			(start 0.250005 0.399995)
+			(start 0.250005 0.399996)
 			(end -0.349996 0)
 			(stroke
 				(width 0.15)
@@ -46177,7 +46200,7 @@
 		)
 		(fp_line
 			(start 0.249993 -0.399999)
-			(end 0.250005 0.399995)
+			(end 0.250005 0.399996)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -46246,7 +46269,7 @@
 			(uuid "f24e043c-6051-44ac-a95e-cf6ec3a4c65e")
 		)
 		(fp_line
-			(start 0.250005 0.399995)
+			(start 0.250005 0.399996)
 			(end -0.349996 0)
 			(stroke
 				(width 0.1)
@@ -46911,7 +46934,7 @@
 		)
 		(fp_line
 			(start 2.350007 -1.149998)
-			(end 2.349999 1.150003)
+			(end 2.35 1.150003)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -46920,7 +46943,7 @@
 			(uuid "65ee29d7-3a0c-4e1f-9936-cb542435c076")
 		)
 		(fp_line
-			(start -2.349999 -1.150003)
+			(start -2.35 -1.150003)
 			(end 2.350007 -1.149998)
 			(stroke
 				(width 0.05)
@@ -46930,7 +46953,7 @@
 			(uuid "b5c6e385-c17b-473c-b855-249296425186")
 		)
 		(fp_line
-			(start -2.349999 -1.150003)
+			(start -2.35 -1.150003)
 			(end -2.350007 1.149998)
 			(stroke
 				(width 0.05)
@@ -46940,7 +46963,7 @@
 			(uuid "5e819026-e8dd-455a-8029-ff3aa266c2b8")
 		)
 		(fp_line
-			(start 2.349999 1.150003)
+			(start 2.35 1.150003)
 			(end -2.350007 1.149998)
 			(stroke
 				(width 0.05)
@@ -47464,7 +47487,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.650006 0.000004 84)
+			(at -1.650007 0.000004 84)
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -47485,7 +47508,7 @@
 			(uuid "94303e53-312b-499d-af82-b75ac0bad5b2")
 		)
 		(pad "2" smd roundrect
-			(at 1.650006 -0.000004 84)
+			(at 1.650007 -0.000004 84)
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -48811,7 +48834,7 @@
 		)
 		(fp_line
 			(start 0.250001 -0.4)
-			(end 0.250002 0.399998)
+			(end 0.250002 0.399997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -48860,7 +48883,7 @@
 			(uuid "8e2f687a-469e-4099-b3e1-80b70485f826")
 		)
 		(fp_line
-			(start 0.250002 0.399998)
+			(start 0.250002 0.399997)
 			(end -0.350004 -0.000004)
 			(stroke
 				(width 0.15)
@@ -48931,7 +48954,7 @@
 		)
 		(fp_line
 			(start 0.250001 -0.4)
-			(end 0.250002 0.399998)
+			(end 0.250002 0.399997)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -49000,7 +49023,7 @@
 			(uuid "365dbae5-6994-4554-ba50-185c367f72e7")
 		)
 		(fp_line
-			(start 0.250002 0.399998)
+			(start 0.250002 0.399997)
 			(end -0.350004 -0.000004)
 			(stroke
 				(width 0.1)
@@ -49203,7 +49226,7 @@
 		)
 		(fp_line
 			(start 0.250001 -0.4)
-			(end 0.250002 0.399998)
+			(end 0.250002 0.399997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -49252,7 +49275,7 @@
 			(uuid "ef35799f-e334-49ae-ac76-9aa6cf8cae8a")
 		)
 		(fp_line
-			(start 0.250002 0.399998)
+			(start 0.250002 0.399997)
 			(end -0.350004 -0.000004)
 			(stroke
 				(width 0.15)
@@ -49323,7 +49346,7 @@
 		)
 		(fp_line
 			(start 0.250001 -0.4)
-			(end 0.250002 0.399998)
+			(end 0.250002 0.399997)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -49392,7 +49415,7 @@
 			(uuid "5509e37d-6153-4851-9203-4c3f3b8a740f")
 		)
 		(fp_line
-			(start 0.250002 0.399998)
+			(start 0.250002 0.399997)
 			(end -0.350004 -0.000004)
 			(stroke
 				(width 0.1)
