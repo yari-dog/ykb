@@ -1,0 +1,11 @@
+#pragma once
+
+#define SPI_DRIVER SPID1
+#define DISPLAY_RST GP12
+#define DISPLAY_CS GP13
+#define SPI_SCK_PIN GP14
+#define SPI_MOSI_PIN GP15
+#define DISPLAY_DC GP16
+#define SPI_MISO_PIN NO_PIN
+
+#define QUANTUM_PAINTER_SUPPORTS_NATIVE_COLORS true
